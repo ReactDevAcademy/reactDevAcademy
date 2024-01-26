@@ -1,0 +1,21 @@
+.gt-strated{
+  background-color: black;
+}
+.Logo{
+  width: 170px;
+  height: 40px;
+}
+.section1{
+  height: 550px;
+  /* background-color: rgb(110, 102, 122); */
+}
+.cource{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.sec-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

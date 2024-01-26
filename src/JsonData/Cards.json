@@ -1,0 +1,64 @@
+{
+    "Cources":[
+        {
+            "CourceName":"Html5",
+            "Description":"HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium recommendation",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"CSS-3",
+            "Description":"CSS3, also known as Cascading Style Sheets Level 3, is a more advanced version of CSS and the successor of CSS2. CSS3 is used for the same thing as CSS, namely to style web pages and make them more attractive and user-friendly",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"Bootstrap-5",
+            "Description":"Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites. Bootstrap 5 is completely free to download and use",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"JavaScript",
+            "Description":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"React Js",
+            "Description":"React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"react-Redux",
+            "Description":"React Redux is the official React UI bindings layer for Redux. It lets your React components read data from a Redux store, and dispatch actions to the store to update state",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"GitHub",
+            "Description":"GitHub, Inc. is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"Bitbucket",
+            "Description":"Bitbucket is a Git-based source code repository hosting service owned by Atlassian. Bitbucket offers both commercial plans and free accounts with an unlimited number of private repositories",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"Jira",
+            "Description":"Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.",
+            "btn":"More Information",
+            "imgPath":""
+        },
+        {
+            "CourceName":"Agile",
+            "Description":"Agile is an approach to project management that centres around incremental and iterative steps to completing projects. The incremental parts of a project are carried out in short-term development cycles.",
+            "btn":"More Information",
+            "imgPath":""
+        }
+    ]
+}
