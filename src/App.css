@@ -1,21 +1,40 @@
-.gt-strated{
+body{
+  background-color:white !important;
+}
+.ul{
   background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 64px;
+  align-items: center;
+  border-radius: 54px;
+  border-bottom: 4px solid rgb(8, 222, 254);
+  border-top: 4px solid red;
+  border-left: 4px solid orange;
+  border-right: 4px solid purple;
+}
+
+.Link{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: serif;
+  color: white;
+}
+.Link:hover{
+  color: aqua;
 }
 .Logo{
-  width: 170px;
-  height: 40px;
+  font-size: 33px;
+  font-weight: 900;
+  font-style: oblique;
+  font-family: cursive;
+  margin-right: 150px;
+  letter-spacing: 4px;
 }
-.section1{
-  height: 550px;
-  /* background-color: rgb(110, 102, 122); */
-}
-.cource{
-  text-align: center;
-  font-size: 50px;
-  font-weight: 700;
-}
-.sec-1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* carousal style */
+.temp1{
+  height: 490px;
+  width: 100%;
+  
 }
