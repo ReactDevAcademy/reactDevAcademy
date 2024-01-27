@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import NavbarComp from './SubComponents/Navbar';
@@ -7,8 +8,9 @@ import NavbarComp from './SubComponents/Navbar';
 function App() {
   return (
     <div className="">
-      <NavbarComp/>
-      <Home/>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+      </Routes>
     </div>
   );
 }

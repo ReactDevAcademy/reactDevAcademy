@@ -1,3 +1,5 @@
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
 body{
   background-color:white !important;
 }
@@ -30,11 +32,41 @@ body{
   font-style: oblique;
   font-family: cursive;
   margin-right: 150px;
+  margin-bottom: 6px;
   letter-spacing: 4px;
+  margin-left: -60px;
 }
 /* carousal style */
 .temp1{
   height: 490px;
-  width: 100%;
-  
+  width: 100%; 
+}
+/* section 2 */
+.textcontent{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.box{
+  background-color: #7cb8df;
+  display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 100px;
+    margin: 18px;
+    border-radius: 15px;
+    box-shadow: rgba(26, 22, 22, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(31, 28, 28, 0.2) 0px -3px 0px inset;
+}
+.txt1{
+  max-width: 57%;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.icons{
+  height: 31px;
+}
+.Mainbox1{
+  border-right: 2px solid grey;
 }

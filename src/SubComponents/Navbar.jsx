@@ -5,11 +5,9 @@ const NavbarComp = () => {
   const NavbarContent = ["About", "Services", "Contact"]
   return (
     <>
-      {/* <div className="container-fluid"> */}
         <ul className='ul mt-3 ms-2 me-2'>
           <NavLink to={'/'} className="Link Logo">ReactDevAcademy</NavLink>
           <NavLink to={'/'} className="Link">Home</NavLink>
-
           {NavbarContent.map((item, ind) => {
             return (
               <NavLink to={`/${item}`} className="Link">
@@ -18,7 +16,6 @@ const NavbarComp = () => {
             )
           })}
         </ul>
-      {/* </div> */}
     </>
   )
 }
