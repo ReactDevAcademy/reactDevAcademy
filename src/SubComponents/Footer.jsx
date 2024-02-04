@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/Footer.css"
+import Logo from "../assets/img/img/Logo.png"
 const Footer = () => {
   return (
     <>
@@ -9,11 +10,11 @@ const Footer = () => {
       <div className="row">
         <div className="col-lg-4 mb-3">
           <a className="navbar-brand" href="#">
-            <img src="./img/3 1.png" alt="" />
+            <img src={Logo} alt="" />
           </a>
           <ul className="list-unstyled small text-white mt-3">
             <li className="mb-2">
-              <a className="text-white phone_link" href="/docs/5.3/about/team/">
+              <a className="text-white phone_link" href="#">
                 <svg
                   className="me-2"
                   width={25}
@@ -40,11 +41,11 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-                +91 8080335613 | +91 7507776426
+                +91 8446739782 | +91 7397820829
               </a>
             </li>
             <li className="mb-2">
-              <a className="text-white phone_link" href="/docs/5.3/about/team/">
+              <a className="text-white phone_link fs-5" href="#">
                 <svg
                   className="me-2"
                   width={25}
@@ -71,11 +72,11 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-                svi@decorsagadesignfurishing.com
+                reactdevacademy@gmail.com
               </a>
             </li>
             <li className="mb-2">
-              <a className="text-white phone_link" href="/docs/5.3/about/team/">
+              <a className="text-white phone_link" href="#">
                 <svg
                   className="me-2"
                   width={25}
@@ -102,9 +103,9 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-                Shop No 5, 8A Paschima Nagari Soc,{" "}
-                <span style={{ marginLeft: "10.4%" }}>
-                  Near City Pride Kothrud, Pune- 411038
+                Lane No 3, Ram Mandir Ambegaon Pathar, <br />{" "}
+                <span style={{marginLeft:"10px"}}>
+                  Katraj, Pune- 411045
                 </span>
               </a>
             </li>

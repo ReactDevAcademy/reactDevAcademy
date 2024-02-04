@@ -6,7 +6,7 @@ import facebook from "../assets/img/img/facebook.png"
 import instagram from "../assets/img/img/instagram.png"
 import youtube from "../assets/img/img/youtube.png"
 import linkedin from "../assets/img/img/linkedin.png"
-import Logo from '../assets/img/img/3 1.png';
+import Logo from "../assets/img/img/Logo.png"
 
 const Navbar = () => {
   return (
