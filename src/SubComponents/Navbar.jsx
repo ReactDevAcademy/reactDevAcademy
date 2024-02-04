@@ -11,56 +11,56 @@ import linkedin from "../assets/img/img/linkedin.png"
 const Navbar = () => {
   return (
     <>
-  {/* top navbar */}
-  <div className="top_navbar_main">
-    <div className="email_mobile_info_main">
-      <div className="mobile_info">
-        <span>
+      {/* top navbar */}
+      <div className="top_navbar_main">
+        <div className="email_mobile_info_main">
+          <div className="mobile_info">
+            <span>
+              <img
+                src={phone_in_talk}
+                alt="phone"
+                className="img-fluid common_img"
+              />
+            </span>
+            <span className="m_i_text">7397820829 - 8446739782</span>
+          </div>
+          <div className="mobile_info">
+            <span>
+              <img
+                src={drafts}
+                alt="email"
+                className="img-fluid common_img"
+              />
+            </span>
+            <span className="m_i_text">reactdevacademy@gmail.com</span>
+          </div>
+        </div>
+        <div className="top_nav_socia_links">
           <img
-            src={phone_in_talk}
-            alt="phone"
-            className="img-fluid common_img"
+            src={facebook}
+            alt="facebook"
+            className="img-fluid social_common_img"
           />
-        </span>
-        <span className="m_i_text">7397820829 - 8446739782</span>
-      </div>
-      <div className="mobile_info">
-        <span>
           <img
-            src={drafts}
-            alt="email"
-            className="img-fluid common_img"
+            src={instagram}
+            alt="instagram"
+            className="img-fluid social_common_img"
           />
-        </span>
-        <span className="m_i_text">reactdevacademy@gmail.com</span>
+          <img
+            src={youtube}
+            alt="youtube"
+            className="img-fluid social_common_img"
+          />
+          <img
+            src={linkedin}
+            alt="linkedin"
+            className="img-fluid social_common_img"
+          />
+        </div>
       </div>
-    </div>
-    <div className="top_nav_socia_links">
-      <img
-        src={facebook}
-        alt="facebook"
-        className="img-fluid social_common_img"
-      />
-      <img
-        src={instagram}
-        alt="instagram"
-        className="img-fluid social_common_img"
-      />
-      <img
-        src={youtube}
-        alt="youtube"
-        className="img-fluid social_common_img"
-      />
-      <img
-        src={linkedin}
-        alt="linkedin"
-        className="img-fluid social_common_img"
-      />
-    </div>
-  </div>
-  {/* ! top navbar */}
+      {/* ! top navbar */}
 
-        {/* Navbar Start */}
+      {/* Navbar Start */}
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark custom_navbar">
           <div className="container-fluid custom_container" style={{ margin: '0px 6px' }}>
@@ -112,7 +112,7 @@ const Navbar = () => {
       </div>
       {/* Navbar End */}
 
-</>
+    </>
 
   )
 }
