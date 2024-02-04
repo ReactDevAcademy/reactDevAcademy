@@ -2,17 +2,21 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import AboutUs from './Components/About';
 import Home from './Components/Home';
+import Footer from './SubComponents/Footer';
+import Navbar from './SubComponents/Navbar';
 import NavbarComp from './SubComponents/Navbar';
+import Section2 from './SubComponents/Section2';
+import Slider from './SubComponents/Slider';
 
 
 // App.js file
 function App() {
   return (
     <div className="">
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/About' element={<AboutUs/>} />
-      </Routes>
+        <Navbar/>
+        <Slider/>
+        <Section2/>
+        <Footer/>
     </div>
   );
 }

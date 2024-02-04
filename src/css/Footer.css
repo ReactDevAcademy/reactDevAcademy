@@ -1,75 +1,43 @@
-
-/* @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); */
-
-body {
-    font-family: 'Rubik', sans-serif;
-    height: 100% !important;
-    background-color: #F8F9FB !important;
+body{
+    font-family: Poppins !important;
 }
-
-.container-fluid{
-    /* margin-top: 101px; */
-    color:#000 !important;
+.footer_bg{
+    background-color: #230231 !important;
+    color: white !important;
 }
-
-.card{
-    background-color: #F8F9FB !important;
+.phone_link{
+    font-size: 16px;
+    font-family: Poppins;
+    text-decoration: none;
 }
-
-p{
-    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
-    display: fkex;
+.subscirbe_text{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
 }
-
-h3{
-    font-size: calc(24px + (30 - 24) * ((100vw - 360px) / (1600 - 360))) !important; 
+.search_input{
+    background-color: #FFFFFF1C !important;
+    border: 0px;
+    border-radius: 27px;
+    padding: 8px;
+    color: white;
 }
-
-.social{
-    font-size: 21px !important; 
+.search_input::placeholder{
+   padding-left: 10px;
+   color: #FFFFFF80;
 }
-
-
-.color-text{
-    color:#757575 !important;
-}
-
-
-button {
-    font-size: calc(12px + (13 - 12) * ((100vw - 360px) / (1600 - 320))) !important;
-    background-color: #2CA6FB !important;
-    padding-left:  calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important; 
-    padding-right: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important; 
-    padding-top:  calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
-    padding-bottom:   calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
- }
-
- button:focus {
-     -moz-box-shadow: none !important;
-     -webkit-box-shadow: none !important;
-     box-shadow: none !important;
-     outline-width: 0
- }
-
- footer{
-    color:#caced1 !important;
- }
-
- li{
-     margin-top: 20px ;
-     margin-bottom: 20px ;
- }
- 
-.Careers{ 
-    cursor: pointer;
-    color: #1E88E5;
-}
-
-.row-1{
-    background-color:#1E242A !important;
-}
-
-.row-2{
+.btn_search{
+    background-color: #59098E;
+    /* linear-gradient(#DD61CD 100%, #59098E 100%); */
+    border: 0px;
+    padding: 5px 14px;
+    border-radius: 20px;
     
-    background-color: #28323C !important;
+}
+.main_search{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
 }

@@ -6,7 +6,7 @@ import facebook from "../assets/img/img/facebook.png"
 import instagram from "../assets/img/img/instagram.png"
 import youtube from "../assets/img/img/youtube.png"
 import linkedin from "../assets/img/img/linkedin.png"
-
+import Logo from '../assets/img/img/3 1.png';
 
 const Navbar = () => {
   return (
@@ -64,7 +64,7 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark custom_navbar">
           <div className="container-fluid custom_container" style={{ margin: '0px 6px' }}>
-            <a className="navbar-brand" href="#"><img src="./img/3 1.png" alt="" /></a>
+            <a className="navbar-brand" href="#"><img src={Logo} alt="" /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
               aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

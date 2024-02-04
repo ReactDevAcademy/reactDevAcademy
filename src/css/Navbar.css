@@ -94,6 +94,9 @@
     width: 20px;
     height: 20px;
   }
+  .carousel-control-prev-icon{
+    margin-right: 84px;
+  }
   
   /* why choose  */
   .why_choose_container {
