@@ -1,18 +1,17 @@
 import React from 'react'
-import Footer from '../SubComponents/Footer'
-import NavbarComp from '../SubComponents/Navbar'
-import Section1 from '../SubComponents/Section1'
-import Section2 from '../SubComponents/Section2'
+import Footer from '../../src/SubComponents/Footer'
+import Navbar from '../../src/SubComponents/Navbar'
+import Section2 from '../../src/SubComponents/Section2'
+import Slider from '../../src/SubComponents/Slider'
 
 const Home = () => {
   return (
-<>
-{/* <Carousal/> */}
-<NavbarComp/>
-<Section1/>
-<Section2/>
-<Footer/>
-</>
+    <>
+      <Navbar />
+      <Slider />
+      <Section2 />
+      <Footer />
+    </>
   )
 }
 
