@@ -149,19 +149,19 @@ const Footer = () => {
           </h5>
           <ul className="list-unstyled text-white mt-3">
             <li className="mb-2">
-              <a className="text-white text-decoration-none" href="/">
+              <a className="text-white text-decoration-none" href="#">
                 Home
               </a>
             </li>
             <li className="mb-2">
-              <a className="text-white text-decoration-none" href="/docs/5.3/">
+              <a className="text-white text-decoration-none" href="#">
                 Our Courses
               </a>
             </li>
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="/docs/5.3/examples/"
+                href="#"
               >
                 Placement
               </a>
@@ -169,7 +169,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="https://icons.getbootstrap.com/"
+                href="#"
               >
                 About Us
               </a>
@@ -177,7 +177,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="https://themes.getbootstrap.com/"
+                href="#"
               >
                 Career’s
               </a>
@@ -224,7 +224,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="/docs/5.3/getting-started/"
+                href="#"
               >
                 Support Centre
               </a>
@@ -232,7 +232,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="/docs/5.3/examples/starter-template/"
+                href="#"
               >
                 Security
               </a>
@@ -240,7 +240,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="/docs/5.3/getting-started/webpack/"
+                href="#"
               >
                 Success Stories
               </a>
@@ -248,7 +248,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="/docs/5.3/getting-started/parcel/"
+                href="#"
               >
                 Use Cases
               </a>
@@ -295,7 +295,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="https://github.com/twbs/bootstrap"
+                href="#"
                 target="_blank"
                 rel="noopener"
               >
@@ -305,7 +305,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="https://github.com/twbs/bootstrap/tree/v4-dev"
+                href="#"
                 target="_blank"
                 rel="noopener"
               >
@@ -315,7 +315,7 @@ const Footer = () => {
             <li className="mb-2">
               <a
                 className="text-white text-decoration-none"
-                href="https://github.com/twbs/icons"
+                href="#"
                 target="_blank"
                 rel="noopener"
               >
@@ -363,7 +363,7 @@ const Footer = () => {
           <ul className="list-unstyled mt-3">
             <li className="mb-2">
               <a
-                href="https://github.com/twbs/bootstrap/issues"
+                href="#"
                 className="subscirbe_text"
                 target="_blank"
                 rel="noopener"

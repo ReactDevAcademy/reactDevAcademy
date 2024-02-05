@@ -2,6 +2,7 @@ import React from 'react'
 import w_c_left from "../assets/img/img/w_c_left.png"
 import WhyChoose from '../CustomHook.jsx/WhyChoose'
 import why_choose_col_img from '../assets/img/img/why_choose_col_img.png';
+import Readmore from "../assets/img/img/Rectangle 96.png"
 const Section2 = () => {
     const [ Data ] = WhyChoose()
     return (
@@ -194,7 +195,7 @@ const Section2 = () => {
                                         />
                                     </svg>
                                 </div>
-                                <button className="w_c_a_read_more_btn">
+                                <button className="w_c_a_read_more_btn" style={{background:`url(${Readmore})`}}>
                                     read more
                                     <span>
                                         <svg
