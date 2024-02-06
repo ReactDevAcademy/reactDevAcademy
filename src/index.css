@@ -1,0 +1,52 @@
+.color_bg{
+    background-color: #FAFAFA !important;
+    height: 449px !important;
+    margin-top: 36px !important;
+    padding: 0px 90px !important;
+}
+.common_row{
+    width: 87%;
+}
+.common_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_box{
+    /* send us message */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.form_control{
+    margin-top: 23px;
+}
+.input_custom{
+    border-radius: 0px !important;
+}
+.input_custom ::placeholder{
+    color: #8B12BF !important;
+}
+.input_btn{
+    background:linear-gradient(#8B12BF,#59098E) !important;
+    color: white !important;
+    border-color: blueviolet !important;
+}
+/* .input_custom::placeholder{
+    color: gray !important;
+} */
+/* ::-webkit-input-placeholder {
+    color:red !important;
+  } */
+/* .red{
+color: red !important;
+} */
