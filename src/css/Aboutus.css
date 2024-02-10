@@ -1,0 +1,66 @@
+.about_title_span{
+    color: #59098E;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.our_vision_mision_row{
+    background-color: #000000 !important;
+    width: 100%;
+
+}
+
+.our_mision_vision_title{
+    color:#fff;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+}
+.title_left_sec{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.about_header{
+    display: flex;justify-content: space-between;
+    margin: 1.5rem 0rem;
+}
+.about_card{
+    width: 100%;
+    height: 100%;
+}
+.about_card_body{
+    padding: 1rem;
+    background: linear-gradient(180deg, #3f3f3f 0%, rgba(249, 249, 249, 0) 100%);
+    
+}
+.about_card_t{
+    color:#fff;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.about_card_para{
+    color:#fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.ab_title_g{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    margin-bottom:.6rem;
+}
+.ab_title_g img{
+    width: 25px;
+}
+.hr_about{
+    color: #fff;
+    margin: 2rem 0rem;
+}
