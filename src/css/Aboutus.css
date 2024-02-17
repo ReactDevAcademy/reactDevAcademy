@@ -21,10 +21,12 @@
     display: flex;
     align-items: center;
     gap: .3rem;
+    justify-content: center;
+    margin-bottom: 25px;
 }
 .about_header{
     display: flex;justify-content: space-between;
-    margin: 1.5rem 0rem;
+    margin: 0 0 1.5rem 0rem;
 }
 .about_card{
     width: 100%;
@@ -35,8 +37,41 @@
     background: linear-gradient(180deg, #3f3f3f 0%, rgba(249, 249, 249, 0) 100%);
     
 }
+.img_why{
+    position: relative;
+}
+.title_about{
+    color: white;
+    font-size: 22px;
+    color: yellow;
+    margin-bottom: 0.25rem;
+}
+.img_text{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.custom_padding_left{
+    padding-left: 0rem !important;
+}
+.why_description{
+    font-weight: 400;
+    font-family: math;
+    line-height: 19px;
+    font-size: 16px;
+    color: #cecccc;
+    text-transform: capitalize;
+}
+.custom_container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.header_rw{
+    width: 85%;
+}
 .about_card_t{
-    color:#fff;
+    color:#c2bdbd;
     font-weight: 600;
     font-size: 24px;
     font-family: "Poppins", sans-serif;
@@ -44,10 +79,10 @@
 }
 
 .about_card_para{
-    color:#fff;
+    color:#c2bdbd;
     font-weight: 400;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: monospace;
     text-transform: capitalize;
 }
 
@@ -63,4 +98,7 @@
 .hr_about{
     color: #fff;
     margin: 2rem 0rem;
+}
+.aboutbox{
+    gap: 45px;
 }
